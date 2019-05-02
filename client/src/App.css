@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+  background-color: #3f4654;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+hr {
+  margin: 0;
+  border: 2px solid #3f4654;
+  margin: -4px 0 0;
+  line-height: 1;
+}
+.section-container {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  border-left: 1px solid #3f4654;
+  border-right: 1px solid #3f4654;
+  width: 32.99% !important;
+  height: 160px;
+  position: relative;
+}
+.section-container-content {
+  position: absolute;
+  background-color: #282c34;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+}
+.number {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 48px;
+  font-weight: bold;
+}
+.form-container {
+  padding-top: 2px;
+  padding-right: 25px;
+}
+.PPI-form {
+  text-align: right;
+  padding: 6px 15px;
+  height: 100%;
+  margin-top: -4px;
+  width: 100%;
+  font-size: 16px;
+  color: #aaa;
+  border-top: 2px solid #3f4654;
+}
+.PPI-form span {
+  color: #bbb;
+  vertical-align: middle;
+  font-size: 17px;
+  opacity: 0.5;
+}
+.section-container-content p:not(.number) {
+  color: #bbb;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: bold;
+}
+form {
+  float: right;
+
+  padding-left: 10px;
+}
+input {
+  max-width: 60px;
+  border-radius: 5px;
+  padding: 3px;
+  vertical-align: middle;
+}
+.App-link {
+  color: #61dafb;
+}

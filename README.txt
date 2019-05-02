@@ -1,0 +1,1 @@
+Run Application by double clicking the .vbs file.
